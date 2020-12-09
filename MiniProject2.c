@@ -1,6 +1,6 @@
 /******************************************************************************
 
-Esther Lee, Elijah Tipton
+Esther Lee, Elijah Tipton, Austin Marshburn
 ELET 1102
 Project 2: Iteration - Discount Electronics
 This code displays the price of a product based on its item number, unit price, and 
