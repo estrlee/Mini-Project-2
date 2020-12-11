@@ -9,7 +9,7 @@ quantity.
 
 int main()
 {
-    printf("| Item Number |     Description     | Discount 0-299 | Discount 300-499 | Discount 500+ |\n");
+    printf("| Item Number |     Description     | Discount 0-299  | Discount 300-499  | Discount 500+  |\n");
     printf("|      0      |      Resistor       |       5%%       |       7.5%%       |       10%%     |\n");
     printf("|      1      |      Capacitor      |       5%%       |       7.5%%       |       10%%     |\n");
     printf("|      2      |     Transistor      |      2.5%%      |        5%%        |       10%%     |\n");
