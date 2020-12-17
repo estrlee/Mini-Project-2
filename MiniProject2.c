@@ -1,5 +1,7 @@
 /******************************************************************************
 Esther Lee, Elijah Tipton, Austin Marshburn
+12/09/20
+Rev A
 ELET 1102
 Project 2: Iteration - Discount Electronics
 This code displays the price of a product based on its item number, unit price, and 
@@ -28,9 +30,9 @@ int main()
     if(itemNum == 0 || itemNum == 1){
         if(quantity > 0 && quantity <= 299){
             discount = 5;
-        } else if(quantity >= 300 && quantity <= 499){
+        } else if(quantity <= 499){
             discount = 7.5;
-        } else if(quantity >= 500){
+        } else {
             discount = 10;
         }
     }
@@ -38,9 +40,9 @@ int main()
     if(itemNum == 2 || itemNum == 3){
         if(quantity > 0 && quantity <= 299){
             discount = 2.5;
-        } else if(quantity >= 300 && quantity <= 499){
+        } else if(quantity <= 499){
             discount = 5;
-        } else if(quantity >= 500){
+        } else {
             discount = 10;
         }
     }
